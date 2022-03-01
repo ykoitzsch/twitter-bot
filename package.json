@@ -1,0 +1,21 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ts-node": "^10.4.0",
+    "twitter-api-v2": "^1.11.0",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/nedb": "^1.8.12",
+    "@types/node": "^16.11.12"
+  }
+}
